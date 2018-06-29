@@ -91,5 +91,16 @@
 .login {
   padding: 2vh;
   margin: 2vh;
-  height: 30vh;
+}
+
+/*Componente Profile*/
+
+.profile {
+  margin-top: 5vh;
+  height: 80vh;
+}
+
+.img-profile {
+  width: 80px;
+  height: 80px;
 }

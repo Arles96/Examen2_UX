@@ -21,7 +21,7 @@ export default class Navbar extends Component {
   handleMenu(){
     if (this.state.menu) {
       return (
-        <Menu closed={this.handleStateMenu} />
+        <Menu closed={this.handleStateMenu} user={this.props.user} />
       )
     }
   }

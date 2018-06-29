@@ -25,8 +25,8 @@ export default class Login extends Component {
     render(){
         return (
             <div id="autenticacion" className="login">
-                <h2 className="text-center mx-auto m-5" >Autenticación</h2>
-                <p className="mx-auto" >
+                <h2 className="text-center m-5" >Autenticación</h2>
+                <p>
                     Para poder usar esta aplicación debe de iniciar sesión con 
                     los siguiente proveedor:
                 </p>
