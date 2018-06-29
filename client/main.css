@@ -3,21 +3,93 @@
   margin: 0;
 }
 
-.my-navbar {
-  margin: 0 !important ;
-  /*background: #504f4f;*/
-}
+/*Componente Navbar*/
 
-.title {
-  margin-left: 5px;
-}
-
-.father-menu {
-  text-align: right;
+.navbar-forex {
+  color: white;
+  width: 100%;
+  margin: 0 !important;
+  opacity: 0.8;
 }
 
 .content-button {
-  margin-right: 10px !important;
+  text-align: right;
   font-size: 2rem;
-  width: fit-content;
+}
+
+.button-menu {
+  cursor: pointer;
+}
+
+/*Componente de Menu*/
+
+.menu {
+  position: fixed;
+  top: 0;
+  right: 0;
+  height: 100vh;
+  width: 30%;
+  opacity: 0.8;
+}
+
+.exit {
+  color: white;
+  cursor: pointer;
+  font-size: 2rem;
+}
+
+.nav-link {
+  color:  rgb(177, 176, 176) !important;
+}
+
+.nav-link:hover{
+  color: white !important;
+}
+
+.menu-button {
+  font-size: 32px;
+  color: rgb(177, 176, 176);
+}
+
+.menu-top {
+  padding: 1em;
+}
+
+.menu-button:hover {
+  color: white;
+  cursor: pointer;
+}
+
+.hr {
+  border: 1px solid rgb(177, 176, 176);
+  display: block;
+  width: 80%;
+}
+
+/*Componente Home*/
+
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  width: 100%;
+  background: url(email.png) no-repeat center;
+  background-size: cover;
+}
+
+.center {
+  margin: auto;
+  background: rgba(0, 0, 0, 0.9);
+  color: white;
+  widows: 200px;
+}
+
+/*Componente Login*/
+
+.login {
+  padding: 2vh;
+  margin: 2vh;
+  height: 30vh;
 }
