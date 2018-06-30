@@ -11,9 +11,10 @@ Meteor.methods({
     return true
   },
   listMessage(email2) {
-    let listM = Message.find({ email : email2 }).fetch()
-    let privateM = Message.find({state : "privado"}).fetch().length
-    let publicM = Message.find({state : "privado"}).fetch().length
+    let listM = Message.find({state : "publico"}).fetch()
+    listM.concat(Message.find({email : email2}).fetch())
+    let privateM = Message.find({state : "privado", email : email2}).fetch().length
+    let publicM = Message.find({state : "publico", email : email2}).fetch().length
     let data = {
       list : listM,
       private : privateM,

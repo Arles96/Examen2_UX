@@ -15,6 +15,11 @@ export default class ListMessage extends Component {
             <div id="muro" className="container" >
                 <hr/>
                 <br/>
+                <div className="text-right">
+                    <button className="btn btn-success" onClick={this.props.load}>
+                        <i className="fas fa-sync-alt"></i>
+                    </button>
+                </div>
                 <h2 className="text-center" >Mensajes</h2>
                 <br/>
                 {messages}
