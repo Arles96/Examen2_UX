@@ -9,7 +9,7 @@
   color: white;
   width: 100%;
   margin: 0 !important;
-  opacity: 0.8;
+  z-index: 100 !important;
 }
 
 .content-button {
@@ -29,7 +29,7 @@
   right: 0;
   height: 100vh;
   width: 30%;
-  opacity: 0.8;
+  z-index: 100 !important;
 }
 
 .exit {
@@ -103,4 +103,15 @@
 .img-profile {
   width: 80px;
   height: 80px;
+}
+
+.footer {
+  color: white;
+  height: 10vh;
+  display: flex;
+  align-items: center;
+}
+
+.author {
+  margin: auto !important;
 }
